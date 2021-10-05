@@ -21,4 +21,17 @@ def number_to_string (num)
     p num.to_s
 end 
 
-number_to_string(5);
+# number_to_string(5)
+
+def number lines
+    if lines != [] then
+        lines.each do |char| 
+            count = 0
+            count += 1
+            p count
+        end
+        p "#{count}: #{lines}"
+    end 
+end
+
+number(["a", "b", "c"])
