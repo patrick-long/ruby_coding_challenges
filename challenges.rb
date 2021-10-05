@@ -33,4 +33,13 @@ def number lines
     end 
 end
 
-number(["a", "b", "c"])
+# number(["a", "b", "c"])
+
+def XO(str)
+    downcase_string = str.downcase
+    if downcase_string.count("x") == downcase_string.count("o") then
+        return true
+    else 
+        return false
+    end
+end
