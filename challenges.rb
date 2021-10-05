@@ -38,8 +38,12 @@ end
 def XO(str)
     downcase_string = str.downcase
     if downcase_string.count("x") == downcase_string.count("o") then
-        return true
+        puts true
     else 
-        return false
+        puts false
     end
 end
+
+XO("xxoo")
+XO("xooxo")
+XO("x12390ao")
