@@ -28,9 +28,8 @@ def number lines
         lines.each do |char| 
             count = 0
             count += 1
-            p count
+            p "#{count}: #{char}"
         end
-        p "#{count}: #{lines}"
     end 
 end
 
