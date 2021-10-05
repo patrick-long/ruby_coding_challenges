@@ -25,8 +25,8 @@ end
 
 def number lines
     if lines != [] then
+        count = 0
         lines.each do |char| 
-            count = 0
             count += 1
             p "#{count}: #{char}"
         end
