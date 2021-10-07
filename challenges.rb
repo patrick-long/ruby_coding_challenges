@@ -44,6 +44,20 @@ def XO(str)
     end
 end
 
-XO("xxoo")
-XO("xooxo")
-XO("x12390ao")
+# XO("xxoo")
+# XO("xooxo")
+# XO("x12390ao")
+
+def round_to_next_5(num) 
+    if num == 0 
+        puts 0
+    else 
+        puts num / 5 * 5
+    end
+end 
+
+round_to_next_5(0)
+round_to_next_5(5)
+round_to_next_5(10)
+round_to_next_5(2)
+round_to_next_5(6)
