@@ -52,7 +52,7 @@ def round_to_next_5(num)
     if num == 0 
         puts 0
     else 
-        puts num / 5 * 5
+        puts num.round(0)
     end
 end 
 
