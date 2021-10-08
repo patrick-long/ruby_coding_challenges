@@ -61,3 +61,8 @@ round_to_next_5(5)
 round_to_next_5(10)
 round_to_next_5(2)
 round_to_next_5(6)
+
+def invert(num) 
+    puts -num 
+end 
+
