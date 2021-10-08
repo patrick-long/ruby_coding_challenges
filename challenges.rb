@@ -66,3 +66,5 @@ def invert(num)
     puts -num 
 end 
 
+invert(2)
+invert(-4)
