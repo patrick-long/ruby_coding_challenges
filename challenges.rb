@@ -50,9 +50,9 @@ end
 
 def round_to_next_5(num) 
     if num == 0 
-        puts 0
+        puts 5
     else 
-        puts num.round(0)
+        puts num.ceil(1)/5.0 * 5
     end
 end 
 
