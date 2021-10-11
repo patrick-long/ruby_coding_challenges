@@ -52,19 +52,21 @@ def round_to_next_5(num)
     if num == 0 
         puts 5
     else 
-        puts num.ceil(1)/5.0 * 5
+        dividedNum = num / 5.0
+        puts dividedNum.ceil * 5
+
     end
 end 
 
-round_to_next_5(0)
-round_to_next_5(5)
-round_to_next_5(10)
-round_to_next_5(2)
-round_to_next_5(6)
+# round_to_next_5(0)
+# round_to_next_5(5)
+# round_to_next_5(10)
+# round_to_next_5(2)
+# round_to_next_5(6)
 
 def invert(num) 
     puts -num 
 end 
 
-invert(2)
-invert(-4)
+# invert(2)
+# invert(-4)
