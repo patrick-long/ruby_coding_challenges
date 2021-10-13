@@ -78,3 +78,6 @@ def sum_two_smallest_numbers(numbers)
     next_smallest = numbers.min
     return smallest + next_smallest
 end
+
+
+puts sum_two_smallest_numbers([1, 2, 3, 4, 5, 6])
