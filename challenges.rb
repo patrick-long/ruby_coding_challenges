@@ -70,3 +70,11 @@ end
 
 # invert(2)
 # invert(-4)
+
+
+def sum_two_smallest_numbers(numbers)
+    smallest = numbers.min
+    numbers.delete_at(numbers.find_index(smallest))
+    next_smallest = numbers.min
+    return smallest + next_smallest
+end
