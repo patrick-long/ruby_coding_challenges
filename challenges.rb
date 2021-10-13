@@ -73,6 +73,7 @@ end
 
 
 def sum_two_smallest_numbers(numbers)
+
     smallest = numbers.min
     numbers.delete_at(numbers.find_index(smallest))
     next_smallest = numbers.min
@@ -81,3 +82,5 @@ end
 
 
 puts sum_two_smallest_numbers([1, 2, 3, 4, 5, 6])
+puts sum_two_smallest_numbers([1239, 149, 203095, 293940, 293210, 1930, 10459])
+puts sum_two_smallest_numbers([10203, 023405, 201923, 19293])
